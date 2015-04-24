@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import "SVProgressHUD.h"
-@interface ViewController : UIViewController<CLLocationManagerDelegate>
+@interface ViewController : UIViewController<CLLocationManagerDelegate,UITableViewDataSource,UITableViewDelegate>
 {
     CLLocationManager *locationManager;
 }

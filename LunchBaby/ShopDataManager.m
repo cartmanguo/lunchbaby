@@ -13,9 +13,9 @@
 {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:[APIGen getSearchApiRequestStringWithParamters:parameters] parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSArray *infos = responseObject[@"businesses"];
-        NSDictionary *d = [infos firstObject];
-        NSLog(@"JSON: %@", d[@"address"]);
+        //NSArray *infos = responseObject[@"businesses"];
+        //NSDictionary *d = [infos firstObject];
+        NSLog(@"JSON: %@",responseObject);
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);

@@ -17,6 +17,10 @@
 		250261AB1AE74889006874C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250261AA1AE74889006874C6 /* CoreLocation.framework */; };
 		250261AF1AE7702E006874C6 /* ShopDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 250261AE1AE7702E006874C6 /* ShopDataManager.m */; };
 		250261B21AE7754C006874C6 /* APIGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 250261B11AE7754C006874C6 /* APIGen.m */; };
+		250261B51AE8C1A4006874C6 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 250261B41AE8C1A4006874C6 /* Restaurant.m */; };
+		250261B81AE8C1B9006874C6 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 250261B71AE8C1B9006874C6 /* JsonParser.m */; };
+		253FD00A1AE9EC690058754E /* SelectCitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253FD0091AE9EC690058754E /* SelectCitiesViewController.m */; };
+		253FD00D1AEA114E0058754E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253FD00C1AEA114E0058754E /* MainViewController.m */; };
 		35E2169AABF6B5A6DC1FF71B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119455D3C6E29049A76CBC93 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +54,14 @@
 		250261AE1AE7702E006874C6 /* ShopDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDataManager.m; sourceTree = "<group>"; };
 		250261B01AE7754C006874C6 /* APIGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIGen.h; sourceTree = "<group>"; };
 		250261B11AE7754C006874C6 /* APIGen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIGen.m; sourceTree = "<group>"; };
+		250261B31AE8C1A4006874C6 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		250261B41AE8C1A4006874C6 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		250261B61AE8C1B9006874C6 /* JsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
+		250261B71AE8C1B9006874C6 /* JsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParser.m; sourceTree = "<group>"; };
+		253FD0081AE9EC690058754E /* SelectCitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCitiesViewController.h; sourceTree = "<group>"; };
+		253FD0091AE9EC690058754E /* SelectCitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCitiesViewController.m; sourceTree = "<group>"; };
+		253FD00B1AEA114E0058754E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		253FD00C1AEA114E0058754E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		53CAC5E017D0C200DB4E1399 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		79289E452ADAE8FB8AA3E928 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,10 +114,18 @@
 				250261891AE7482C006874C6 /* AppDelegate.m */,
 				2502618B1AE7482C006874C6 /* ViewController.h */,
 				2502618C1AE7482C006874C6 /* ViewController.m */,
+				253FD00B1AEA114E0058754E /* MainViewController.h */,
+				253FD00C1AEA114E0058754E /* MainViewController.m */,
+				253FD0081AE9EC690058754E /* SelectCitiesViewController.h */,
+				253FD0091AE9EC690058754E /* SelectCitiesViewController.m */,
 				250261AD1AE7702E006874C6 /* ShopDataManager.h */,
 				250261AE1AE7702E006874C6 /* ShopDataManager.m */,
 				250261B01AE7754C006874C6 /* APIGen.h */,
 				250261B11AE7754C006874C6 /* APIGen.m */,
+				250261B31AE8C1A4006874C6 /* Restaurant.h */,
+				250261B41AE8C1A4006874C6 /* Restaurant.m */,
+				250261B61AE8C1B9006874C6 /* JsonParser.h */,
+				250261B71AE8C1B9006874C6 /* JsonParser.m */,
 				2502618E1AE7482C006874C6 /* Main.storyboard */,
 				250261911AE7482C006874C6 /* Images.xcassets */,
 				250261931AE7482C006874C6 /* LaunchScreen.xib */,
@@ -297,7 +317,11 @@
 				2502618A1AE7482C006874C6 /* AppDelegate.m in Sources */,
 				250261B21AE7754C006874C6 /* APIGen.m in Sources */,
 				250261871AE7482C006874C6 /* main.m in Sources */,
+				253FD00D1AEA114E0058754E /* MainViewController.m in Sources */,
+				250261B51AE8C1A4006874C6 /* Restaurant.m in Sources */,
 				250261AF1AE7702E006874C6 /* ShopDataManager.m in Sources */,
+				250261B81AE8C1B9006874C6 /* JsonParser.m in Sources */,
+				253FD00A1AE9EC690058754E /* SelectCitiesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +456,7 @@
 					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
 				);
 				INFOPLIST_FILE = LunchBaby/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
@@ -452,7 +476,7 @@
 					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
 				);
 				INFOPLIST_FILE = LunchBaby/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
