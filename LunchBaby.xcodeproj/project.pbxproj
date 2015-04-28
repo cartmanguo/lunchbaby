@@ -21,6 +21,10 @@
 		250261B81AE8C1B9006874C6 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 250261B71AE8C1B9006874C6 /* JsonParser.m */; };
 		253FD00A1AE9EC690058754E /* SelectCitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253FD0091AE9EC690058754E /* SelectCitiesViewController.m */; };
 		253FD00D1AEA114E0058754E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253FD00C1AEA114E0058754E /* MainViewController.m */; };
+		25D6F8DF1AEF6E7B009AE071 /* AddUsualPlacesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D6F8DE1AEF6E7B009AE071 /* AddUsualPlacesController.m */; };
+		25D6F8E31AEF70BD009AE071 /* CustomPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D6F8E21AEF70BD009AE071 /* CustomPresentation.m */; };
+		25D6F8E61AEF7868009AE071 /* CustomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D6F8E51AEF7868009AE071 /* CustomTransition.m */; };
+		25D6F8E91AEF7D79009AE071 /* SavedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D6F8E81AEF7D79009AE071 /* SavedList.m */; };
 		35E2169AABF6B5A6DC1FF71B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119455D3C6E29049A76CBC93 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +66,14 @@
 		253FD0091AE9EC690058754E /* SelectCitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCitiesViewController.m; sourceTree = "<group>"; };
 		253FD00B1AEA114E0058754E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		253FD00C1AEA114E0058754E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		25D6F8DD1AEF6E7B009AE071 /* AddUsualPlacesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddUsualPlacesController.h; sourceTree = "<group>"; };
+		25D6F8DE1AEF6E7B009AE071 /* AddUsualPlacesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddUsualPlacesController.m; sourceTree = "<group>"; };
+		25D6F8E11AEF70BD009AE071 /* CustomPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPresentation.h; sourceTree = "<group>"; };
+		25D6F8E21AEF70BD009AE071 /* CustomPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPresentation.m; sourceTree = "<group>"; };
+		25D6F8E41AEF7868009AE071 /* CustomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransition.h; sourceTree = "<group>"; };
+		25D6F8E51AEF7868009AE071 /* CustomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransition.m; sourceTree = "<group>"; };
+		25D6F8E71AEF7D79009AE071 /* SavedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedList.h; sourceTree = "<group>"; };
+		25D6F8E81AEF7D79009AE071 /* SavedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedList.m; sourceTree = "<group>"; };
 		53CAC5E017D0C200DB4E1399 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		79289E452ADAE8FB8AA3E928 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +101,7 @@
 		250261781AE7482C006874C6 = {
 			isa = PBXGroup;
 			children = (
-				250261AA1AE74889006874C6 /* CoreLocation.framework */,
+				25D6F8E01AEF7092009AE071 /* Transition */,
 				250261831AE7482C006874C6 /* LunchBaby */,
 				2502619D1AE7482D006874C6 /* LunchBabyTests */,
 				250261821AE7482C006874C6 /* Products */,
@@ -116,12 +128,16 @@
 				2502618C1AE7482C006874C6 /* ViewController.m */,
 				253FD00B1AEA114E0058754E /* MainViewController.h */,
 				253FD00C1AEA114E0058754E /* MainViewController.m */,
+				25D6F8DD1AEF6E7B009AE071 /* AddUsualPlacesController.h */,
+				25D6F8DE1AEF6E7B009AE071 /* AddUsualPlacesController.m */,
 				253FD0081AE9EC690058754E /* SelectCitiesViewController.h */,
 				253FD0091AE9EC690058754E /* SelectCitiesViewController.m */,
 				250261AD1AE7702E006874C6 /* ShopDataManager.h */,
 				250261AE1AE7702E006874C6 /* ShopDataManager.m */,
 				250261B01AE7754C006874C6 /* APIGen.h */,
 				250261B11AE7754C006874C6 /* APIGen.m */,
+				25D6F8E71AEF7D79009AE071 /* SavedList.h */,
+				25D6F8E81AEF7D79009AE071 /* SavedList.m */,
 				250261B31AE8C1A4006874C6 /* Restaurant.h */,
 				250261B41AE8C1A4006874C6 /* Restaurant.m */,
 				250261B61AE8C1B9006874C6 /* JsonParser.h */,
@@ -160,6 +176,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		25D6F8E01AEF7092009AE071 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				25D6F8E11AEF70BD009AE071 /* CustomPresentation.h */,
+				25D6F8E21AEF70BD009AE071 /* CustomPresentation.m */,
+				25D6F8E41AEF7868009AE071 /* CustomTransition.h */,
+				25D6F8E51AEF7868009AE071 /* CustomTransition.m */,
+			);
+			name = Transition;
+			sourceTree = "<group>";
+		};
 		296CBA12AF1BD698DBE8D519 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +199,7 @@
 		EB22251AF2A282C1056E500E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				250261AA1AE74889006874C6 /* CoreLocation.framework */,
 				119455D3C6E29049A76CBC93 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -317,11 +345,15 @@
 				2502618A1AE7482C006874C6 /* AppDelegate.m in Sources */,
 				250261B21AE7754C006874C6 /* APIGen.m in Sources */,
 				250261871AE7482C006874C6 /* main.m in Sources */,
+				25D6F8DF1AEF6E7B009AE071 /* AddUsualPlacesController.m in Sources */,
+				25D6F8E91AEF7D79009AE071 /* SavedList.m in Sources */,
 				253FD00D1AEA114E0058754E /* MainViewController.m in Sources */,
+				25D6F8E31AEF70BD009AE071 /* CustomPresentation.m in Sources */,
 				250261B51AE8C1A4006874C6 /* Restaurant.m in Sources */,
 				250261AF1AE7702E006874C6 /* ShopDataManager.m in Sources */,
 				250261B81AE8C1B9006874C6 /* JsonParser.m in Sources */,
 				253FD00A1AE9EC690058754E /* SelectCitiesViewController.m in Sources */,
+				25D6F8E61AEF7868009AE071 /* CustomTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
